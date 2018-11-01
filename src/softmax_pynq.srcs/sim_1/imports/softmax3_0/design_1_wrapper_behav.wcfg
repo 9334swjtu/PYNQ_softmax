@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="deisgn2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="deisgn2" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5540000000fs"></ZoomStartTime>
+      <ZoomEndTime time="6332000001fs"></ZoomEndTime>
+      <Cursor1Time time="6200000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="138"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/deisgn2/P_0" type="array">
+      <obj_property name="ElementShortName">P_0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">P_0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/sum_0" type="array">
+      <obj_property name="ElementShortName">sum_0[63:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_0[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/clk_0" type="logic">
+      <obj_property name="ElementShortName">clk_0</obj_property>
+      <obj_property name="ObjectShortName">clk_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/fix_num_0" type="array">
+      <obj_property name="ElementShortName">fix_num_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">fix_num_0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/point_position_0" type="array">
+      <obj_property name="ElementShortName">point_position_0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">point_position_0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/rst_n_0" type="logic">
+      <obj_property name="ElementShortName">rst_n_0</obj_property>
+      <obj_property name="ObjectShortName">rst_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/reg1" type="array">
+      <obj_property name="ElementShortName">reg1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/reg2" type="array">
+      <obj_property name="ElementShortName">reg2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/reg3" type="array">
+      <obj_property name="ElementShortName">reg3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/reg4" type="array">
+      <obj_property name="ElementShortName">reg4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">reg4[15:0]</obj_property>
+      <obj_property name="Radix">REALRADIX</obj_property>
+      <obj_property name="radix_realType">UNSIGNEDFIXEDPOINTRADIX</obj_property>
+      <obj_property name="radix_fractionWidth">16</obj_property>
+      <obj_property name="radix_otherWidth">0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/deisgn2/file" type="array">
+      <obj_property name="ElementShortName">file[31:0]</obj_property>
+      <obj_property name="ObjectShortName">file[31:0]</obj_property>
+   </wvobject>
+</wave_config>

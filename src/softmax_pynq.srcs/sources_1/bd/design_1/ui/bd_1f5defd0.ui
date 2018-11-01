@@ -1,0 +1,120 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port btn_switch_state_0 -pg 1 -y 760 -defaultsOSRD
+preplace port DDR -pg 1 -y 1030 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 1050 -defaultsOSRD
+preplace portBus led -pg 1 -y 1170 -defaultsOSRD
+preplace inst DIV40_32_TOP_0 -pg 1 -lvl 8 -y 940 -defaultsOSRD
+preplace inst myrom4bit_7 -pg 1 -lvl 3 -y 570 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 9 -y 1030 -defaultsOSRD
+preplace inst smartconnect_0 -pg 1 -lvl 13 -y 870 -defaultsOSRD
+preplace inst reg62_0 -pg 1 -lvl 11 -y 800 -defaultsOSRD
+preplace inst w1_combine_0 -pg 1 -lvl 11 -y 390 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 1 -y 610 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -y 310 -defaultsOSRD
+preplace inst fix_shift_0 -pg 1 -lvl 2 -y 510 -defaultsOSRD
+preplace inst reg4_2 -pg 1 -lvl 8 -y 540 -defaultsOSRD -resize 240 100
+preplace inst xlslice_2 -pg 1 -lvl 10 -y 640 -defaultsOSRD -resize 160 60
+preplace inst xlconstant_1 -pg 1 -lvl 11 -y 1050 -defaultsOSRD
+preplace inst w2_combine_0 -pg 1 -lvl 11 -y 940 -defaultsOSRD
+preplace inst reg4_3 -pg 1 -lvl 9 -y 540 -defaultsOSRD -resize 240 100
+preplace inst xlconstant_2 -pg 1 -lvl 7 -y 940 -defaultsOSRD
+preplace inst MUL_TOP_0 -pg 1 -lvl 4 -y 210 -defaultsOSRD
+preplace inst myrom5bit_1 -pg 1 -lvl 5 -y 660 -defaultsOSRD
+preplace inst custom_register_0 -pg 1 -lvl 7 -y 530 -defaultsOSRD
+preplace inst MUL_TOP_1 -pg 1 -lvl 4 -y 540 -defaultsOSRD -resize 180 120
+preplace inst myslice_0 -pg 1 -lvl 5 -y 210 -defaultsOSRD
+preplace inst MUL_TOP_2 -pg 1 -lvl 6 -y 350 -defaultsOSRD -resize 180 120
+preplace inst switch_16_8_0 -pg 1 -lvl 10 -y 940 -defaultsOSRD
+preplace inst myslice_1 -pg 1 -lvl 5 -y 340 -defaultsOSRD -resize 220 100
+preplace inst new_axi_m_0 -pg 1 -lvl 12 -y 930 -defaultsOSRD
+preplace inst MUL_TOP_3 -pg 1 -lvl 8 -y 380 -defaultsOSRD -resize 180 120
+preplace inst shift_r2_0 -pg 1 -lvl 7 -y 1050 -defaultsOSRD
+preplace inst myslice_2 -pg 1 -lvl 7 -y 350 -defaultsOSRD -resize 220 100
+preplace inst myslice_3 -pg 1 -lvl 9 -y 400 -defaultsOSRD -resize 220 100
+preplace inst div_part_clk_control_0 -pg 1 -lvl 7 -y 830 -defaultsOSRD
+preplace inst custom_register_4 -pg 1 -lvl 11 -y 530 -defaultsOSRD -resize 260 100
+preplace inst ps7_0_axi_periph -pg 1 -lvl 15 -y 890 -defaultsOSRD
+preplace inst myslice_4 -pg 1 -lvl 9 -y 920 -defaultsOSRD -resize 220 100
+preplace inst custom_register_5 -pg 1 -lvl 6 -y 530 -defaultsOSRD -resize 260 100
+preplace inst reg3_0 -pg 1 -lvl 6 -y 670 -defaultsOSRD
+preplace inst custom_register_6 -pg 1 -lvl 10 -y 530 -defaultsOSRD -resize 260 100
+preplace inst myrom4bit_4 -pg 1 -lvl 3 -y 70 -defaultsOSRD
+preplace inst reg3_1 -pg 1 -lvl 7 -y 670 -defaultsOSRD -resize 220 100
+preplace inst custom_register_7 -pg 1 -lvl 10 -y 380 -defaultsOSRD -resize 260 100
+preplace inst myrom4bit_5 -pg 1 -lvl 3 -y 200 -defaultsOSRD
+preplace inst button_single_0 -pg 1 -lvl 11 -y 660 -defaultsOSRD
+preplace inst axi_s_control_0 -pg 1 -lvl 16 -y 770 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 14 -y 1050 -defaultsOSRD
+preplace inst myrom4bit_6 -pg 1 -lvl 3 -y 420 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 14 3 NJ 1030 NJ 1030 NJ
+preplace netloc new_axi_m_0_M_AXI 1 12 1 N
+preplace netloc new_axi_m_0_state_reg 1 6 11 2140 1120 NJ 1120 NJ 1120 NJ 1120 NJ 1120 NJ 1120 4290 1120 4610J 1170 NJ 1170 NJ 1170 NJ
+preplace netloc myslice_0_dout 1 5 1 1800
+preplace netloc new_axi_m_0_sum 1 7 6 2500 1140 NJ 1140 NJ 1140 NJ 1140 NJ 1140 4270
+preplace netloc new_axi_m_0_read_data_valid 1 5 8 1810 740 NJ 740 NJ 740 NJ 740 N 740 3430 730 NJ 730 4290
+preplace netloc xlconstant_1_dout 1 11 1 3770J
+preplace netloc axi_s_control_0_slv_reg0 1 11 6 3800 670 NJ 670 NJ 670 NJ 670 NJ 670 6040
+preplace netloc w2_combine_0_dout 1 11 1 3750
+preplace netloc xlconstant_2_dout 1 7 1 NJ
+preplace netloc myrom4bit_7_cur_result 1 3 1 1080
+preplace netloc axi_s_control_0_slv_reg1 1 11 6 3810 690 NJ 690 NJ 690 NJ 690 NJ 690 6030
+preplace netloc processing_system7_0_GPIO_O 1 0 15 -20 730 NJ 730 NJ 730 NJ 730 NJ 730 1790J 600 NJ 600 2480J 610 NJ 610 3080 690 3390J 1180 NJ 1180 NJ 1180 NJ 1180 5050
+preplace netloc custom_register_7_data_out 1 10 1 3420J
+preplace netloc myrom4bit_6_cur_result 1 3 1 1090
+preplace netloc custom_register_0_data_out 1 7 1 2500
+preplace netloc clk_0_1 1 1 15 240 420 660 0 1100 440 1390 440 1800 440 2140 440 2500 470 2790 470 3090 460 3410 1100 3810 1090 4310 1050 4620 1160 5060 760 5390
+preplace netloc processing_system7_0_M_AXI_GP0 1 14 1 5070
+preplace netloc axi_s_control_0_slv_reg2 1 11 6 3820 750 NJ 750 NJ 750 NJ 750 5370J 850 6040
+preplace netloc DIV40_32_TOP_0_quotient 1 8 1 N
+preplace netloc MUL_TOP_1_PRODUCT 1 4 1 1380
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 15 220 400 680 500 1110J 460 1360 460 1780 460 2160 460 2490 460 2800 330 3080 450 3420 1110 3760 770 4320 770 NJ 770 5050 770 5360J
+preplace netloc axi_s_control_0_slv_reg3 1 8 9 2790 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 NJ 1190 6030
+preplace netloc w1_combine_0_dout 1 11 1 3790
+preplace netloc reg62_0_dout 1 11 1 3730
+preplace netloc myslice_1_dout 1 5 1 NJ
+preplace netloc myslice_2_dout 1 7 1 N
+preplace netloc button_single_0_single 1 11 1 3740
+preplace netloc smartconnect_0_M00_AXI 1 13 1 4620
+preplace netloc myrom4bit_5_cur_result 1 3 1 N
+preplace netloc switch_16_8_0_dout 1 10 1 NJ
+preplace netloc btn_switch_state_0_1 1 0 12 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 NJ 760 3400J 870 3750J
+preplace netloc MUL_TOP_2_PRODUCT 1 6 1 NJ
+preplace netloc xlconstant_0_dout 1 3 5 1120 410 NJ 410 1780 430 NJ 430 2490J
+preplace netloc fix_shift_0_after_point_0 1 2 1 640
+preplace netloc processing_system7_0_FIXED_IO 1 14 3 NJ 1050 NJ 1050 NJ
+preplace netloc xlslice_2_Dout 1 10 1 N
+preplace netloc myslice_4_dout 1 9 1 3090J
+preplace netloc fix_shift_0_after_point_1 1 2 1 670
+preplace netloc shift_r2_0_dout_low 1 7 1 2480J
+preplace netloc fix_shift_0_after_point_2 1 2 1 690
+preplace netloc reg3_0_dout 1 6 1 2130
+preplace netloc reg4_2_dout 1 8 1 2790
+preplace netloc div_part_clk_control_0_clk_out 1 7 4 2500 780 NJ 780 N 780 NJ
+preplace netloc new_axi_m_0_r_data_2 1 6 7 2160 1130 NJ 1130 NJ 1130 NJ 1130 NJ 1130 NJ 1130 4280
+preplace netloc custom_register_4_data_out 1 11 1 3780
+preplace netloc fix_shift_0_after_point_3 1 2 1 N
+preplace netloc new_axi_m_0_r_data 1 1 12 230 -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 NJ -10 4300
+preplace netloc ps7_0_axi_periph_M00_AXI 1 15 1 5380
+preplace netloc custom_register_6_data_out 1 10 1 3390
+preplace netloc MUL_TOP_3_PRODUCT 1 8 1 2790
+preplace netloc MUL_TOP_0_PRODUCT 1 4 1 NJ
+preplace netloc myrom4bit_4_cur_result 1 3 1 1120
+preplace netloc reg4_3_dout 1 9 1 3090
+preplace netloc fix_shift_0_befor_point 1 2 3 650 490 1080J 450 1370J
+preplace netloc xlslice_0_Dout 1 9 1 3080J
+preplace netloc reg3_1_dout 1 7 1 2470
+preplace netloc myslice_3_dout 1 9 1 NJ
+preplace netloc myrom5bit_1_cur_result 1 5 1 1770
+preplace netloc custom_register_5_data_out 1 6 1 2150
+levelinfo -pg 1 -40 120 460 900 1250 1590 1980 2320 2650 2940 3240 3580 4050 4470 4850 5230 5890 6070 -top -20 -bot 1210
+",
+}
+{
+   da_axi4_cnt: "1",
+   da_board_cnt: "2",
+   da_clkrst_cnt: "41",
+   da_ps7_cnt: "2",
+}
